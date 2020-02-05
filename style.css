@@ -12,21 +12,6 @@ header {
     background: rgba(0, 0, 0, 0.1);
 }
 
-header div a {
-    color: #FFF;
-    font-size: 18px;
-    line-height: 28px;
-    margin: 0 30px;
-    text-decoration: none;
-    border-bottom: 1px solid #725ABC;
-}
-
-header div a:hover {
-    color: #725ABC;
-    transition: color 300ms;
-    border-bottom: 1px solid #FFF;
-}
-
 .links {
     text-align: center;
 }
@@ -35,13 +20,15 @@ header div a:hover {
     color: #FFF;
     font-size: 18px;
     line-height: 28px;
-    margin: 0 16px;
+    margin: 0 30px;
     text-decoration: none;
+    border-bottom: 1px solid #725ABC;
 }
 
 .links a:hover {
     color: #725ABC;
-    transition: color 200ms;
+    transition: color 300ms;
+    border-bottom: 1px solid #FFF;
 }
 
 #wrapper {
